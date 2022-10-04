@@ -1,0 +1,28 @@
+/*Desarrollo realizador por: Jonathan Cardona Calderon ID 1037613608 Grupo1 Part Time*/
+
+:root {
+    /* Color principal */
+    --background-logo: #00D1B2;
+    --background-content: #00D1B2;
+
+    /* Color secundario */
+    --background-suculentas: #AAE8D8;
+    --text-search-bar: #D3D3D3;
+    --text-links-nav: #000000;
+    --text-content: #FFFFFF;
+    --text-link-footer: #0000ff;
+    --button-footer: #00D1B2;
+
+    /*Fuente proyectos*/ 
+    --Charis-Sil: 'Charis SIL', serif;  /*Fuente de Marca */
+
+    /*Fuente contenidos globales*/
+    --Roboto: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,129 @@
+/*Desarrollo realizador por: Jonathan Cardona Calderon ID 1037613608 Grupo1 Part Time*/
+
+.container__principal {
+    margin: 20px 14%;
+    width: 72%;
+}
+
+.container__principal_title {
+    font-family: var(--Roboto);
+    font-size: 38px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.container__content {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container__content_info {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+}
+
+.container__content_discover {
+    
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.container__content_discover-info {
+    background-color: var(--background-content);
+    height: 325px;
+    width: 800px;
+}
+
+.container__content_discover-text {
+    color: var(--text-content);
+    font-family: var(--Roboto);
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container__content_discover-row {
+    align-items: center;
+    color: var(--text-content);
+    display: flex;
+    font-family: var(--Roboto);
+    font-size: 30px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+.container__content_discover-row p {
+    margin: 45px 0px 0px 10px;
+}
+
+.container__content_discover-row img {
+    cursor: pointer;
+    height: 30px;
+    margin: 42px 0px 0px 10px;
+    width: 30px;
+}
+
+.container__content_discover-picture {
+    width: 44%;
+    margin-right: 20px;
+}
+
+.container__content_exploremore {
+    margin-left: 63px;
+}
+
+.container__content_exploremore-text {
+    align-items: center;
+    background-color: var(--background-content);
+    color: var(--text-content);
+    display: flex;
+    font-family: var(--Roboto);
+    font-size: 19px;
+    font-weight: 500;
+    height: 85px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.container__content_exploremore-text p {
+    margin-left: 20px;
+}
+
+.container__content_exploremore-text img {
+    cursor: pointer;
+    height: 20px;
+    margin-left: 5px;
+    width: 20px;
+}
+
+.container__pictures {
+    align-items: center;
+    background-color: var(--background-suculentas);
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 20px;
+    width: 100%;
+}
+
+.container__pictures_content img {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+}
+
+.container__pictures_content p {
+    font-family: var(--Roboto);
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}

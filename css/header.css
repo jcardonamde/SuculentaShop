@@ -1,0 +1,83 @@
+/*Desarrollo realizador por: Jonathan Cardona Calderon ID 1037613608 Grupo1 Part Time*/
+
+.nav__bar {
+    display: flex;
+    flex-direction: column;
+    height: 115px;
+    margin: 0 14%;
+    padding: 10px;
+    width: 72%;
+}
+
+.nav__bar-firstline {
+    display: flex;
+    height: 40%;
+}
+
+.nav__bar-logo {
+    border-radius: 5px;
+    background-color: var(--background-logo);
+}
+
+.nav__bar-title {
+    font-family: var(--Charis-Sil);
+    font-size: 28px;
+    font-weight: 500;
+    margin: -5px 5px 5px 10px;
+    text-align: center;
+}
+
+.nav__bar-search {
+    background-image: url('../assets/imgs/search-dark.png');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position-x: 625px;
+    border: 2px solid var(--text-search-bar);
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 0px 10px;
+    padding-left: 17px;
+    width: 660px;
+}
+
+.nav__bar-search:focus {
+    outline: none;
+    background-image: none;
+}
+
+.nav__bar-login {
+    font-family: var(--Roboto);
+    font-size: 15px;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.nav__bar-shoppingcart {
+    background-size: cover;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+}
+
+.nav__bar-links {
+    border-bottom: 4px solid black;
+    height: 30px;
+    margin-top: 23px;
+}
+
+.nav__bar-links_list {
+    display: flex;
+    font-family: var(--Roboto);
+    justify-content: space-between;
+}
+
+.nav__bar-links_list li {
+    font-weight: 500;
+    list-style: none;
+}
+
+.nav__bar-links_list li a {
+    color: var(--text-links-nav);
+    text-decoration: none;
+}

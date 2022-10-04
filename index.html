@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bases.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Charis+SIL&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <title>Succulent Shop</title>
+</head>
+<body>
+    <header>
+        <nav class="nav__bar">
+            <div class="nav__bar-firstline">
+                <img src="assets/imgs/leaf.png" alt="logo EasyBay" class="nav__bar-logo">
+                <h1 class="nav__bar-title">EasyBay</h1>
+                <input type="text" placeholder="Search for anything" class="nav__bar-search">
+                <p class="nav__bar-login">Sign In</p>
+                <img src="assets/imgs/cart-dark.png" alt="carrito de compras" class="nav__bar-shoppingcart" onclick="alertShoppingCart()">
+            </div>
+            <div class="nav__bar-links">
+                <ul class="nav__bar-links_list">
+                    <li><a href="#">Aeonium</a></li>
+                    <li><a href="#">Andormischus</a></li>
+                    <li><a href="#">Agave</a></li>
+                    <li><a href="#">Aloe</a></li>
+                    <li><a href="#">Anacampseros</a></li>
+                    <li><a href="#">Aristaloe</a></li>
+                    <li><a href="#">More...</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container__principal">
+            <h2 class="container__principal_title">Your Source for Serious Succulent Specialties</h2>
+            <div class="container__content">
+                <div class="container__content_info">
+                    <div class="container__content_discover">
+                        <div class="container__content_discover-info">
+                            <div class="container__content_discover-text">
+                                <p>Discover succ-<br> ulent varieties<br>one pot or rack<br>at a time!</p>
+                            </div>
+                            <div class="container__content_discover-row">
+                                <p>Discover</p>
+                                <img src="assets/imgs/arrow-light.png" alt="logo flecha apuntando a la derecha">
+                            </div>
+                        </div>
+                        <div class="container__content_discover-picture">
+                            <img src="assets/imgs/succulents-1.jpg" alt="fotografia de plantas tipo suculentas" id="succulent-plant" onmouseover="hoverImage()" onmouseleave="hoverImageOut()">
+                        </div>
+                    </div>
+                    <div class="container__content_exploremore">
+                        <div class="container__content_exploremore-img">
+                            <img src="assets/imgs/aloe-m.jpg" alt="fotografia de planta tipo suculenta">
+                        </div>
+                        <div class="container__content_exploremore-text">
+                            <p>Soothing aloe</p>
+                            <img src="assets/imgs/arrow-light.png" alt="logo flecha apuntando a la derecha">
+                        </div>
+                    </div>
+                </div>
+                <div class="container__pictures">
+                    <div class="container__pictures_content">
+                        <img src="assets/imgs/aeonium-s.jpg" alt="fotografia de planta tipo suculenta aeonium">
+                        <p>Aeonium</p>
+                    </div>
+                    <div class="container__pictures_content">
+                        <img src="assets/imgs/aloe-s.jpg" alt="fotografia de planta tipo suculenta aloe">
+                        <p>Aloe</p>
+                    </div>
+                    <div class="container__pictures_content">
+                        <img src="assets/imgs/cactus-s.jpg" alt="fotografia de planta tipo suculenta cactus">
+                        <p>Cactus</p>
+                    </div>
+                    <div class="container__pictures_content">
+                        <img src="assets/imgs/echeveria-s.jpg" alt="fotografia de planta tipo suculenta cactus">
+                        <p>Echeveria</p>
+                    </div>
+                    <div class="container__pictures_content">
+                        <img src="assets/imgs/sedum-s.jpg" alt="fotografia de planta tipo suculenta sedum">
+                        <p>Sedum</p>
+                    </div>
+                    <div class="container__pictures_content">
+                        <img src="assets/imgs/sempervivum-s.jpg" alt="fotografia de planta tipo suculenta sempervivum">
+                        <p>Sempervivum</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="cookie">
+            <img class="cookie__alert" src="assets/imgs/alert-dark.png" alt="logo de alerta para cookies" />
+            <div class="cookie__text">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the<br>terms outlined in our <a href="#">cookie policy.</a></p>
+            </div> 
+            <button class="cookie__button" onclick="acceptAction()">I accept</button>
+        </div>
+    </footer>
+    <script src="js/interactions.js"></script>
+</body>
+</html>
+<!--Desarrollo realizador por: Jonathan Cardona Calderon ID 1037613608 Grupo1 Part Time-->
